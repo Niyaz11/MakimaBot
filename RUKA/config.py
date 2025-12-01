@@ -32,7 +32,7 @@ def _to_list(val: str | None, cast_int: bool = False) -> list:
 
 
 class CONFIG_CLASS:
-    BOT_TOKEN = "7792842081:AAHXJGLGX-vGwbOAjidVXLLQlcu_HO5JrvU"
+    BOT_TOKEN = ""
     API_ID = 23537462
     API_HASH = "c9599a5aa61ee8ca4f5e778d20c61f24"
 
@@ -42,14 +42,14 @@ class CONFIG_CLASS:
     SUPPORT_LIST = _to_list(os.environ.get("7654385403"), cast_int=True)
     WHITE_LIST = _to_list(os.environ.get("7654385403"), cast_int=True)
 
-    SUPPORT_CHAT_ID= -1002380726940
+    SUPPORT_CHAT_ID=
     LOGS_CHANNEL= -1002456565415
     GBAN_LOGS= -1002456565415
-    UPDATES_CHANNEL="AnimeNexusNetwork"
+    UPDATES_CHANNEL=""
 
-    DB_URL = os.environ.get("mongodb+srv://phrolovaxrobot:p0SFEz825QuqzwTi@cluster0.sy26fqm.mongodb.net/?retryWrites=true&w=majority") or os.environ.get("mongodb+srv://osaragixrobot:fCW12lWsOiwgqSfw@cluster0.lddzvly.mongodb.net/")
+    DB_URL = os.environ.get("") or os.environ.get("")
 
-    SERVER_LOG_BOT_TOKEN = "7792842081:AAHXJGLGX-vGwbOAjidVXLLQlcu_HO5JrvU"
+    SERVER_LOG_BOT_TOKEN = ""
 
     MEOW_API_TOKEN = os.environ.get("MEOW_API_TOKEN")
 
