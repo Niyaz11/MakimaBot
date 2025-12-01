@@ -16,23 +16,23 @@ def get_user_list(key):
 
 class Config:
     # Basic Bot Configuration
-    TOKEN = os.getenv("TOKEN", "7792842081:AAHXJGLGX-vGwbOAjidVXLLQlcu_HO5JrvU")
-    API_ID = int(os.getenv("API_ID", "23537462"))
-    API_HASH = os.getenv("API_HASH", "c9599a5aa61ee8ca4f5e778d20c61f24")
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "YoruXRobot")
+    TOKEN = "7792842081:AAHXJGLGX-vGwbOAjidVXLLQlcu_HO5JrvU"
+    API_ID = 23537462
+    API_HASH = "c9599a5aa61ee8ca4f5e778d20c61f24"
+    BOT_USERNAME = "YoruXRobot"
 
     # Database Configuration
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://phrolovaxrobot:p0SFEz825QuqzwTi@cluster0.sy26fqm.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = "mongodb+srv://phrolovaxrobot:p0SFEz825QuqzwTi@cluster0.sy26fqm.mongodb.net/?retryWrites=true&w=majority"
 
     # Logging and Monitoring
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1002456565415"))  # Example: -1001234567890 (Private Channel ID)
+    LOG_CHANNEL = (-1002456565415)  # Example: -1001234567890 (Private Channel ID)
     
     # Access Control
-    SUDO_USERS = list(map(int, os.getenv("SUDO_USERS", "7654385403").split(',')))
-    OWNER_ID = int(os.getenv("OWNER_ID", "7654385403"))
+    SUDO_USERS = "7654385403").split(',')))
+    OWNER_ID = 7654385403
 
     # Optional Extras
-    SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/EternalsHelplineBot")  # Without '@'
+    SUPPORT_CHAT = ("https://t.me/EternalsHelplineBot")  # Without '@'
     
     # Additional API integrations
     BLUE_API = os.getenv("BLUE_API", "blue-ishikki-personal")
