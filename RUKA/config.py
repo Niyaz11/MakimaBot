@@ -32,24 +32,24 @@ def _to_list(val: str | None, cast_int: bool = False) -> list:
 
 
 class CONFIG_CLASS:
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    API_ID = _to_int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
+    BOT_TOKEN = "7792842081:AAHXJGLGX-vGwbOAjidVXLLQlcu_HO5JrvU"
+    API_ID = 23537462
+    API_HASH = "c9599a5aa61ee8ca4f5e778d20c61f24"
 
-    OWNER_LIST = _to_list(os.environ.get("OWNER_LIST"), cast_int=True)
-    DEV_LIST = _to_list(os.environ.get("DEVLIST"), cast_int=True)
-    SUDO_LIST = _to_list(os.environ.get("SUDOLIST"), cast_int=True)
-    SUPPORT_LIST = _to_list(os.environ.get("SUPPORTLIST"), cast_int=True)
-    WHITE_LIST = _to_list(os.environ.get("WHITELIST"), cast_int=True)
+    OWNER_LIST = _to_list(os.environ.get("7654385403"), cast_int=True)
+    DEV_LIST = _to_list(os.environ.get("7654385403"), cast_int=True)
+    SUDO_LIST = _to_list(os.environ.get("7654385403"), cast_int=True)
+    SUPPORT_LIST = _to_list(os.environ.get("7654385403"), cast_int=True)
+    WHITE_LIST = _to_list(os.environ.get("7654385403"), cast_int=True)
 
-    SUPPORT_CHAT_ID = _to_int(os.environ.get("SUPPORT_CHAT_ID"))
-    LOGS_CHANNEL = _to_int(os.environ.get("LOGS_CHANNEL"))
-    GBAN_LOGS = _to_int(os.environ.get("GBAN_LOGS"))
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
+    SUPPORT_CHAT_ID= -1002380726940
+    LOGS_CHANNEL= -1002456565415
+    GBAN_LOGS= -1002456565415
+    UPDATES_CHANNEL="AnimeNexusNetwork"
 
-    DB_URL = os.environ.get("DB_URL") or os.environ.get("DB_URl")
+    DB_URL = os.environ.get("mongodb+srv://phrolovaxrobot:p0SFEz825QuqzwTi@cluster0.sy26fqm.mongodb.net/?retryWrites=true&w=majority") or os.environ.get("mongodb+srv://osaragixrobot:fCW12lWsOiwgqSfw@cluster0.lddzvly.mongodb.net/")
 
-    SERVER_LOG_BOT_TOKEN = os.environ.get("SERVER_LOG_BOT_TOKEN")
+    SERVER_LOG_BOT_TOKEN = "7792842081:AAHXJGLGX-vGwbOAjidVXLLQlcu_HO5JrvU"
 
     MEOW_API_TOKEN = os.environ.get("MEOW_API_TOKEN")
 
