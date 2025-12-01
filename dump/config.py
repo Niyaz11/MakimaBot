@@ -28,8 +28,8 @@ class Config:
     LOG_CHANNEL = (-1002456565415)  # Example: -1001234567890 (Private Channel ID)
     
     # Access Control
-    SUDO_USERS = "7654385403").split(',')))
-    OWNER_ID = 7654385403
+    SUDO_USERS = list(map(int, os.getenv("SUDO_USERS", "7654385403").split(',')))
+    OWNER_ID = (7654385403)
 
     # Optional Extras
     SUPPORT_CHAT = ("https://t.me/EternalsHelplineBot")  # Without '@'
