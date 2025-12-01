@@ -16,13 +16,13 @@ def get_user_list(key):
 
 class Config:
     # Basic Bot Configuration
-    TOKEN = "7792842081:AAHXJGLGX-vGwbOAjidVXLLQlcu_HO5JrvU"
+    TOKEN = ""
     API_ID = 23537462
     API_HASH = "c9599a5aa61ee8ca4f5e778d20c61f24"
     BOT_USERNAME = "YoruXRobot"
 
     # Database Configuration
-    DATABASE_URL = "mongodb+srv://phrolovaxrobot:p0SFEz825QuqzwTi@cluster0.sy26fqm.mongodb.net/?retryWrites=true&w=majority"
+    DATABASE_URL = ""
 
     # Logging and Monitoring
     LOG_CHANNEL = (-1002456565415)  # Example: -1001234567890 (Private Channel ID)
