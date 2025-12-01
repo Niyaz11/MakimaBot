@@ -2,8 +2,14 @@ FROM python:3.10-slim
 
 WORKDIR /ruka
 
+COPY requirements.txt .
+
+# Install dotenv explicitly first
+RUN pip install --no-cache-dir python-dotenv
+
+# Then install other requirements
+RUN pip install --no-cache-dir -r requirements.txt
+
 COPY . .
 
-RUN pip install -r requirements.txt
-
-CMD ["python3","-m","RUKA"]
+CMD ["python3", "-m", "RUKA"]
